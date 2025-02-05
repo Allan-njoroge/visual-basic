@@ -23,8 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Label1 = New Label()
-        Label2 = New Label()
-        Button1 = New Button()
+        txtCatchPhrase = New Label()
+        btnGetStarted = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -38,25 +38,25 @@ Partial Class Form1
         Label1.TabIndex = 0
         Label1.Text = "Welcome To MovieVault"
         ' 
-        ' Label2
+        ' txtCatchPhrase
         ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(232, 211)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(436, 28)
-        Label2.TabIndex = 1
-        Label2.Text = "Your movies, securely stored and easily managed"
+        txtCatchPhrase.AutoSize = True
+        txtCatchPhrase.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtCatchPhrase.Location = New Point(232, 211)
+        txtCatchPhrase.Name = "txtCatchPhrase"
+        txtCatchPhrase.Size = New Size(436, 28)
+        txtCatchPhrase.TabIndex = 1
+        txtCatchPhrase.Text = "Your movies, securely stored and easily managed"
         ' 
-        ' Button1
+        ' btnGetStarted
         ' 
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.Location = New Point(313, 282)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(235, 53)
-        Button1.TabIndex = 2
-        Button1.Text = "Get Started"
-        Button1.UseVisualStyleBackColor = True
+        btnGetStarted.FlatStyle = FlatStyle.Flat
+        btnGetStarted.Location = New Point(313, 282)
+        btnGetStarted.Name = "btnGetStarted"
+        btnGetStarted.Size = New Size(235, 53)
+        btnGetStarted.TabIndex = 2
+        btnGetStarted.Text = "Get Started"
+        btnGetStarted.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
@@ -64,8 +64,8 @@ Partial Class Form1
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         ClientSize = New Size(913, 538)
-        Controls.Add(Button1)
-        Controls.Add(Label2)
+        Controls.Add(btnGetStarted)
+        Controls.Add(txtCatchPhrase)
         Controls.Add(Label1)
         FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "Form1"
@@ -76,7 +76,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents txtCatchPhrase As Label
+    Friend WithEvents btnGetStarted As Button
 
 End Class

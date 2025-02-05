@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("MovieVault"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+022b6ca951c87eda34c3aa75516149fde29a336a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("MovieVault"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("MovieVault"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

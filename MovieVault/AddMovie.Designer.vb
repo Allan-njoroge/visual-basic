@@ -23,15 +23,15 @@ Partial Class AddMovie
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
-        Button5 = New Button()
-        Label1 = New Label()
+        btnBack = New Button()
+        lblPageTitle = New Label()
         Label2 = New Label()
         txtTitle = New TextBox()
         txtGenre = New TextBox()
         txtReleaseYear = New TextBox()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
+        lblTitle = New Label()
+        lblGenre = New Label()
+        lblReleaseYear = New Label()
         Button1 = New Button()
         Panel1.SuspendLayout()
         SuspendLayout()
@@ -39,34 +39,34 @@ Partial Class AddMovie
         ' Panel1
         ' 
         Panel1.BackColor = Color.Blue
-        Panel1.Controls.Add(Button5)
-        Panel1.Controls.Add(Label1)
+        Panel1.Controls.Add(btnBack)
+        Panel1.Controls.Add(lblPageTitle)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(800, 77)
         Panel1.TabIndex = 7
         ' 
-        ' Button5
+        ' btnBack
         ' 
-        Button5.Location = New Point(-9, -15)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(128, 106)
-        Button5.TabIndex = 7
-        Button5.Text = "Back"
-        Button5.UseVisualStyleBackColor = True
+        btnBack.Location = New Point(-9, -15)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(128, 106)
+        btnBack.TabIndex = 7
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
         ' 
-        ' Label1
+        ' lblPageTitle
         ' 
-        Label1.AutoSize = True
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.White
-        Label1.Location = New Point(281, 20)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(263, 45)
-        Label1.TabIndex = 1
-        Label1.Text = "Add New Movie"
+        lblPageTitle.AutoSize = True
+        lblPageTitle.BackColor = Color.Transparent
+        lblPageTitle.Font = New Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPageTitle.ForeColor = Color.White
+        lblPageTitle.Location = New Point(281, 20)
+        lblPageTitle.Name = "lblPageTitle"
+        lblPageTitle.Size = New Size(263, 45)
+        lblPageTitle.TabIndex = 1
+        lblPageTitle.Text = "Add New Movie"
         ' 
         ' Label2
         ' 
@@ -102,32 +102,32 @@ Partial Class AddMovie
         txtReleaseYear.Size = New Size(513, 31)
         txtReleaseYear.TabIndex = 11
         ' 
-        ' Label3
+        ' lblTitle
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(95, 173)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(44, 25)
-        Label3.TabIndex = 12
-        Label3.Text = "Title"
+        lblTitle.AutoSize = True
+        lblTitle.Location = New Point(95, 173)
+        lblTitle.Name = "lblTitle"
+        lblTitle.Size = New Size(44, 25)
+        lblTitle.TabIndex = 12
+        lblTitle.Text = "Title"
         ' 
-        ' Label4
+        ' lblGenre
         ' 
-        Label4.AutoSize = True
-        Label4.Location = New Point(81, 232)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(58, 25)
-        Label4.TabIndex = 13
-        Label4.Text = "Genre"
+        lblGenre.AutoSize = True
+        lblGenre.Location = New Point(81, 232)
+        lblGenre.Name = "lblGenre"
+        lblGenre.Size = New Size(58, 25)
+        lblGenre.TabIndex = 13
+        lblGenre.Text = "Genre"
         ' 
-        ' Label5
+        ' lblReleaseYear
         ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(32, 289)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(107, 25)
-        Label5.TabIndex = 14
-        Label5.Text = "Release Year"
+        lblReleaseYear.AutoSize = True
+        lblReleaseYear.Location = New Point(32, 289)
+        lblReleaseYear.Name = "lblReleaseYear"
+        lblReleaseYear.Size = New Size(107, 25)
+        lblReleaseYear.TabIndex = 14
+        lblReleaseYear.Text = "Release Year"
         ' 
         ' Button1
         ' 
@@ -149,9 +149,9 @@ Partial Class AddMovie
         BackColor = Color.White
         ClientSize = New Size(800, 450)
         Controls.Add(Button1)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(Label3)
+        Controls.Add(lblReleaseYear)
+        Controls.Add(lblGenre)
+        Controls.Add(lblTitle)
         Controls.Add(txtReleaseYear)
         Controls.Add(txtGenre)
         Controls.Add(txtTitle)
@@ -167,14 +167,14 @@ Partial Class AddMovie
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents btnBack As Button
+    Friend WithEvents lblPageTitle As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents txtTitle As TextBox
     Friend WithEvents txtGenre As TextBox
     Friend WithEvents txtReleaseYear As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
+    Friend WithEvents lblTitle As Label
+    Friend WithEvents lblGenre As Label
+    Friend WithEvents lblReleaseYear As Label
     Friend WithEvents Button1 As Button
 End Class

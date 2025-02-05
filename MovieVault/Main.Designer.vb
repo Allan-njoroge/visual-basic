@@ -28,14 +28,14 @@ Partial Class Main
         btnAbout = New Button()
         btnSettings = New Button()
         Panel1 = New Panel()
-        Button5 = New Button()
+        btnBack = New Button()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI", 16.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.White
         Label1.Location = New Point(305, 19)
         Label1.Name = "Label1"
@@ -82,7 +82,7 @@ Partial Class Main
         ' Panel1
         ' 
         Panel1.BackColor = Color.Blue
-        Panel1.Controls.Add(Button5)
+        Panel1.Controls.Add(btnBack)
         Panel1.Controls.Add(Label1)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
@@ -90,18 +90,18 @@ Partial Class Main
         Panel1.Size = New Size(800, 77)
         Panel1.TabIndex = 6
         ' 
-        ' Button5
+        ' btnBack
         ' 
-        Button5.Location = New Point(-9, -15)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(128, 106)
-        Button5.TabIndex = 7
-        Button5.Text = "Back"
-        Button5.UseVisualStyleBackColor = True
+        btnBack.Location = New Point(-9, -15)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(128, 106)
+        btnBack.TabIndex = 7
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
         ' 
         ' Main
         ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(800, 584)
@@ -124,5 +124,5 @@ Partial Class Main
     Friend WithEvents btnAbout As Button
     Friend WithEvents btnSettings As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnBack As Button
 End Class

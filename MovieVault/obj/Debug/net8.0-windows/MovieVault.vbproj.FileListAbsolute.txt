@@ -19,3 +19,5 @@ D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0
 D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0-windows\MovieVault.ViewMovies.resources
 D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0-windows\MovieVault.Resources.resources
 D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0-windows\MovieVault.Settings.resources
+D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0-windows\MovieVault.sourcelink.json
+D:\school\Sem 2.2\Application Programming\MovieVault\MovieVault\obj\Debug\net8.0-windows\MovieVault.About.resources

@@ -1,11 +1,12 @@
 ﻿Public Class Main
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Me.Hide()
         Form1.Show()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnAbout.Click
-
+        Me.Hide()
+        About.Show()
     End Sub
 
     ' Add Movies Button

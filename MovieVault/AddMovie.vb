@@ -1,5 +1,5 @@
 ﻿Public Class AddMovie
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         Me.Hide()
         Main.Show()
     End Sub

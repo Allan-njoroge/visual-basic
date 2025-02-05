@@ -24,7 +24,7 @@ Partial Class ViewMovies
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ViewMovies))
         Panel1 = New Panel()
-        Button5 = New Button()
+        btnBack = New Button()
         Label1 = New Label()
         TextBox1 = New TextBox()
         Button1 = New Button()
@@ -58,7 +58,7 @@ Partial Class ViewMovies
         ' Panel1
         ' 
         Panel1.BackColor = Color.Blue
-        Panel1.Controls.Add(Button5)
+        Panel1.Controls.Add(btnBack)
         Panel1.Controls.Add(Label1)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
@@ -66,14 +66,14 @@ Partial Class ViewMovies
         Panel1.Size = New Size(927, 77)
         Panel1.TabIndex = 8
         ' 
-        ' Button5
+        ' btnBack
         ' 
-        Button5.Location = New Point(-9, -15)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(128, 106)
-        Button5.TabIndex = 7
-        Button5.Text = "Back"
-        Button5.UseVisualStyleBackColor = True
+        btnBack.Location = New Point(-9, -15)
+        btnBack.Name = "btnBack"
+        btnBack.Size = New Size(128, 106)
+        btnBack.TabIndex = 7
+        btnBack.Text = "Back"
+        btnBack.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
@@ -318,7 +318,7 @@ Partial Class ViewMovies
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnBack As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
